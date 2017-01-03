@@ -63,6 +63,8 @@ get:function( receiveurl,callback){
 8. <font color=#0000ff>package.json </font> 本来是项目中所依赖用到的模块信息，但此项目由于开始的时候，技术不成熟故没有考虑到，所以，在这个项目中，目前是作废了，只能从公司的gitlab全都拉下来
 
 
+原则上一个html对应一个js，注意多看下routes文件夹和views文件夹还有public中js文件夹之间的规则，基本上是一一对应的，css主要有base.css和common.css，其他的本不应该出现，但是一开始没有规划好，所以多了很多不规范的样式及文件。目前正在优化css...
+
 
 ### 四、ERP开发及使用
 
