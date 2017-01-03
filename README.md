@@ -191,4 +191,17 @@ window.location = url;
 ```
 ##### 注意
 
-这边的地址，也会去请求erp接口，然，我们上面所说的接收erp请求的处理方式并不能处理故，我们在处理这种接口的时
+这边的地址，也会去请求erp接口，然，我们上面所说的crud.js中接收erp请求的处理方式并不能处理（因为我只封装处理了json对象的数据），故，我们在处理这种接口的时侯，需要用到`var proxy = require('express-http-proxy');`这个模块，[使用方法见这里](https://www.npmjs.com/package/express-http-proxy)
+
+需要关注的是在app
+.js中，代理的路径要放在处理erp路由的前面
+
+如下两个图，注意左侧的行数
+
+图一
+
+![proxy.png](https://rainagain.github.io/images/erpimages/proxy.png)
+
+图二
+
+![proxy2.png](https://rainagain.github.io/images/erpimages/proxy2.png)
