@@ -11,6 +11,8 @@
 3. [Express](http://www.expressjs.com.cn/)
 4. [Vue.js (1.x)](http://vuejs.org.cn/guide/installation.html)
 
+规范啥的不想多说，网上太多了，自己多看看，jshint和csshint都可以用用看，这个项目这一点做的不好，哎，目前正在优化css部分
+
 ### 三、ERP文件说明和结构
 ##### 说明：
 此项目结构采用java+node.js+html/html5
