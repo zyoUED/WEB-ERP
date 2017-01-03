@@ -75,6 +75,8 @@ get:function( receiveurl,callback){
 * erp接口，即java后端自己写的接口（带有逻辑处理，且大多数关联两张表及以上的）
 
 * 代理的接口
+
+
 ---
 ####  项目98%的数据是通过jQuery的ajax方式来请求的（处理rest接口和erp接口）
 
