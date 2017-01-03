@@ -117,7 +117,7 @@ showOperatorInfo: function (flag) {
 
 ![crud.png](https://rainagain.github.io/images/erpimages/crud.png)
 
-如上图，ajax在进行get请求的时候express.Router的router模块会响应客户端的请求。这里的路由路径用了正则，所以可以匹配所有`/erp/xxxx`开头的请求。（[相关router知识点这里](http://www.expressjs.com.cn/guide/routing.html)）
+如上图，代码在crud.js中。ajax在进行get请求的时候express.Router的router模块会响应客户端的请求。这里的路由路径用了正则，所以可以匹配所有`/erp/xxxx`开头的请求。（[相关router知识点这里](http://www.expressjs.com.cn/guide/routing.html)）
 
 ##### 说明:
 
